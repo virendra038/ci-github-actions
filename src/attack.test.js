@@ -1,4 +1,4 @@
-const attack = require('./attack');
+import attack from './attack';
 
 it('should test attack', () => {
   const result = attack('Tiger', true);
